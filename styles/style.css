@@ -20,7 +20,7 @@
     /* parameters for the header section */
 }
 
-.header__title{
+.header__title {
   position: absolute;
   left: 64px;
   width: 730px;
@@ -29,9 +29,10 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
+  margin: 0;
 }
 
-.header__subtitle{
+.header__subtitle {
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -40,6 +41,10 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
+}
+.header__link{
+color: #2F80ED;
 }
 
 .header__square-pic {
@@ -77,15 +82,21 @@
  display: flex;
 }
 .two-columns{
+  min-width: 784px;
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 959px;
   margin-top: 100px;
   margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
   }
 
+.two-columns__main-text{
+  width: 80%;
+  min-width: 784px;
+
+}
 .brief{
   width: 175px;
   color: #2F80ED;
@@ -98,22 +109,30 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  min-width: 784px; 
 }
 
 .span-accent{
   line-height: 34px;
   font-size: 24px;
-  font-weight: bold;
 }
-
+.two-columns__brief{
+  color: #2F80ED;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  width: 175px;
+}
+.two-columns__paragraph{
+  margin-bottom: 30px;
+  width: 80%;
+}
 .main-text{
   width: 80%;
   min-width: 784px;
   justify-content: left;  
 }
 .digits{
-
+  margin-top: 60px;
 }
 .section-title{
 width: 60%;
@@ -130,6 +149,7 @@ text-align: center;
 .section-subtitle{
   width: 60%;
   margin-bottom: 60px;
+  margin-top: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -163,12 +183,14 @@ text-align: center;
 line-height: 1.15;
 font-size: 24px;
 font-weight: bold;
+margin-bottom: 20px;
 }
 
 .table__text{
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin-top: 20px;
 }
 
 .feynman__title{
@@ -186,6 +208,7 @@ font-weight: bold;
 margin-top: 70px;
 margin-left: auto;
 margin-right: auto;
+margin-bottom: 0;
 line-height: 51px;
 font-size: 36px;
 font-weight: normal;
@@ -209,7 +232,7 @@ text-decoration: none;
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 790px;
+  min-height: 790px;
   position: relative;
 }
 
@@ -350,6 +373,11 @@ text-decoration: none;
   padding: 0;
   box-sizing: border-box;
 }
+.logo_place_header{
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
 
 .logo_place_footer {
   width: 183px;
@@ -381,6 +409,7 @@ text-decoration: none;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  align-items:baseline;
 }
 
 .footer__column-link {
