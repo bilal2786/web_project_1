@@ -30,6 +30,7 @@
   font-size: 102px;
   font-weight: bold;
   margin: 0;
+  padding: 0;
 }
 
 .header__subtitle {
@@ -42,6 +43,7 @@
   font-size: 18px;
   font-weight: normal;
   margin: 0;
+  padding: 0;
 }
 .header__link{
 color: #2F80ED;
