@@ -3,16 +3,5 @@
 		{
 			"path": "."
 		}
-	],
-	"launch": {
-		"version": "0.2.0",
-		"configurations": [
-			{
-				"type": "pwa-chrome",
-				"request": "launch",
-				"name": "Open index.html",
-				"file": "c:\\Users\\tamara.TAMARAPC\\HTML\\Advanced HTML & CSS — Project 1\\index.html"
-			}
-		]
-	}
+	]
 }
