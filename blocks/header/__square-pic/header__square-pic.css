@@ -1,0 +1,16 @@
+@import url("../../rotation/rotation.css");
+
+.header__square-pic {
+    background-color: #2f80ed;
+    background-size: cover;
+    width: 568px;
+    height: 568px;
+    position: absolute;
+    top: 64px;
+    right: 0px;
+    z-index: 0;
+    bottom: 30px;
+    display: flex;
+    transform: rotate(-15deg);
+    
+}

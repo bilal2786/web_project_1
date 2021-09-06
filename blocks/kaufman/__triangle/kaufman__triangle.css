@@ -1,0 +1,12 @@
+@import url("../../rotation/rotation.css");
+
+.kaufman__triangle {
+    background-image: url("../../../images/kaufman-triangle.svg");
+    width: 660px;
+    height: 636px;
+    position: absolute;
+    right: -124px;
+    z-index: 1;
+    top: 0;
+    
+}
