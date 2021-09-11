@@ -1,20 +1,31 @@
-# My First Project
+# Project 3
 
-*Welcome*
+## From Homland to Homeland
 
+### Overview
 
-This is the first and second assignments on the Yandex Practicum Web Developer curse.
+- Intro
+- subjects
+- URL
 
+**Intro**
 
-It contains the following subjects.
+This is the third assignments on the Yandex Practicum Web Developer curse.
+
+**What was used**
 
 1. BEM method
-2. animation and transition with css
-3. positioning elements
-4. Flexbox
+2. `<grid>`
+3. breaking points
+4. `<flexbox>`
 5. File structure
 6. embedging content
+7. CSS @media Rule
+8. responsive layout
 
+---
 
+**URL**
 
-For more information on this curse you may click the following [link](https://www.practicum100.org/)# web_project_1
+You can see the end result [here](https://bilal2786.github.io/web_project_3/) in GitHub pages
+
